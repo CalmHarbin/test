@@ -1,0 +1,28 @@
+// You should use them in scss, because we calculate it by sass.
+// comment next lines to use default color
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+    $button-padding-horizontal: (
+        'default': 50px
+    ),
+    $common-component-size: (
+        'large': 40px,
+        'default': 32px,
+        'small': 26px
+    ),
+    $tag-height: (
+        'large': 40px,
+        'default': 32px,
+        'small': 26px
+    ),
+    $avatar-size: (
+        'large': 40px,
+        'default': 32px,
+        'small': 26px
+    )
+);
+
+// if you want to import all
+@use 'element-plus/theme-chalk/src/index.scss' as *;
+
+// You can comment it to hide debug info.
+// @debug $--colors;

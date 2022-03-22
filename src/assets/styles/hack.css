@@ -1,0 +1,12 @@
+/* 一个全局的样式定义，覆盖弹出层的边距 */
+.poper-body-no-margin{
+    padding: 0 !important;
+}
+
+.drop-gost-active{
+    visibility: hidden;
+}
+
+.joy-table-section-active{
+    --el-table-tr-bg-color: var(--el-table-current-row-bg-color);
+}
